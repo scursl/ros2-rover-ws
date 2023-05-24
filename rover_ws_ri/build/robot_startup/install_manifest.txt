@@ -1,0 +1,16 @@
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/robot_startup/launch/rover.launch.py
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/ament_index/resource_index/package_run_dependencies/robot_startup
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/ament_index/resource_index/parent_prefix_path/robot_startup
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/robot_startup/environment/ament_prefix_path.sh
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/robot_startup/environment/ament_prefix_path.dsv
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/robot_startup/environment/path.sh
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/robot_startup/environment/path.dsv
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/robot_startup/local_setup.bash
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/robot_startup/local_setup.sh
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/robot_startup/local_setup.zsh
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/robot_startup/local_setup.dsv
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/robot_startup/package.dsv
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/ament_index/resource_index/packages/robot_startup
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/robot_startup/cmake/robot_startupConfig.cmake
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/robot_startup/cmake/robot_startupConfig-version.cmake
+/home/rover4-i/Desktop/Rover/rover_ws_ri/install/robot_startup/share/robot_startup/package.xml
