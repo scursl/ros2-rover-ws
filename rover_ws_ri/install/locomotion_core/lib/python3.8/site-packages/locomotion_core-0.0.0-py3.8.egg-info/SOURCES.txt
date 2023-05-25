@@ -9,8 +9,10 @@ setup.py
 ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt
 ../../build/locomotion_core/locomotion_core.egg-info/zip-safe
 locomotion_core/__init__.py
-locomotion_core/cmd_roboteq.py
-locomotion_core/cmd_roboteq2.py
+locomotion_core/cmd_roboteq_jetson.py
+locomotion_core/cmd_roboteq_pi.py
+locomotion_core/enable_gpiocontrol.py
+locomotion_core/enable_srv.py
 locomotion_core/movebase_kinematics.py
 locomotion_core/rover_enable.py
 locomotion_core/rover_state_controller.py

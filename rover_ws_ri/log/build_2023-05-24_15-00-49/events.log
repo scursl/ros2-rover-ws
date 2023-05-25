@@ -1,0 +1,582 @@
+[0.000000] (-) TimerEvent: {}
+[0.001467] (locomotion_core) JobQueued: {'identifier': 'locomotion_core', 'dependencies': OrderedDict()}
+[0.001863] (robot_startup) JobQueued: {'identifier': 'robot_startup', 'dependencies': OrderedDict()}
+[0.002370] (rover_launch) JobQueued: {'identifier': 'rover_launch', 'dependencies': OrderedDict()}
+[0.002482] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.002536] (locomotion_core) JobStarted: {'identifier': 'locomotion_core'}
+[0.032487] (robot_startup) JobStarted: {'identifier': 'robot_startup'}
+[0.049597] (rover_launch) JobStarted: {'identifier': 'rover_launch'}
+[0.065111] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.099233] (-) TimerEvent: {}
+[0.199977] (-) TimerEvent: {}
+[0.300633] (-) TimerEvent: {}
+[0.401278] (-) TimerEvent: {}
+[0.501943] (-) TimerEvent: {}
+[0.570538] (robot_startup) JobProgress: {'identifier': 'robot_startup', 'progress': 'cmake'}
+[0.571148] (robot_startup) Command: {'cmd': ['/usr/bin/cmake', '/home/rover4-i/rover_ws_ri/src/robot_startup', '-DCMAKE_INSTALL_PREFIX=/home/rover4-i/rover_ws_ri/install/robot_startup'], 'cwd': '/home/rover4-i/rover_ws_ri/build/robot_startup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rover4-i'), ('SSH_AGENT_PID', '2430'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rover4-i'), ('OLDPWD', '/home/rover4-i/rover_ws_ri/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1952'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rover4-i'), ('JOURNAL_STREAM', '7:53065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rover4-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/rover4-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover4-i:@/tmp/.ICE-unix/2465,unix/rover4-i:/tmp/.ICE-unix/2465'), ('INVOCATION_ID', '4b2845fd29ef4479b97468d40d68acbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b2890f_07d1_4208_99a4_755c789b3195'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover4-i/rover_ws_ri/build/robot_startup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[0.583617] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'cmake'}
+[0.584200] (rover_launch) Command: {'cmd': ['/usr/bin/cmake', '/home/rover4-i/rover_ws_ri/src/rover_launch', '-DCMAKE_INSTALL_PREFIX=/home/rover4-i/rover_ws_ri/install/rover_launch'], 'cwd': '/home/rover4-i/rover_ws_ri/build/rover_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rover4-i'), ('SSH_AGENT_PID', '2430'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rover4-i'), ('OLDPWD', '/home/rover4-i/rover_ws_ri/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1952'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rover4-i'), ('JOURNAL_STREAM', '7:53065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rover4-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/rover4-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover4-i:@/tmp/.ICE-unix/2465,unix/rover4-i:/tmp/.ICE-unix/2465'), ('INVOCATION_ID', '4b2845fd29ef4479b97468d40d68acbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b2890f_07d1_4208_99a4_755c789b3195'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover4-i/rover_ws_ri/build/rover_launch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[0.592854] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[0.593319] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '/home/rover4-i/rover_ws_ri/src/teleop_twist_joy-foxy', '-DCMAKE_INSTALL_PREFIX=/home/rover4-i/rover_ws_ri/install/teleop_twist_joy'], 'cwd': '/home/rover4-i/rover_ws_ri/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rover4-i'), ('SSH_AGENT_PID', '2430'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rover4-i'), ('OLDPWD', '/home/rover4-i/rover_ws_ri/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1952'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rover4-i'), ('JOURNAL_STREAM', '7:53065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rover4-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/rover4-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover4-i:@/tmp/.ICE-unix/2465,unix/rover4-i:/tmp/.ICE-unix/2465'), ('INVOCATION_ID', '4b2845fd29ef4479b97468d40d68acbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b2890f_07d1_4208_99a4_755c789b3195'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover4-i/rover_ws_ri/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[0.606006] (-) TimerEvent: {}
+[0.705829] (rover_launch) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.706599] (-) TimerEvent: {}
+[0.707187] (robot_startup) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.806781] (-) TimerEvent: {}
+[0.889617] (rover_launch) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.890239] (teleop_twist_joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.890914] (robot_startup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.898107] (rover_launch) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.899651] (robot_startup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.906888] (-) TimerEvent: {}
+[1.007450] (-) TimerEvent: {}
+[1.052573] (teleop_twist_joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.061510] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.107862] (-) TimerEvent: {}
+[1.120490] (rover_launch) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.122226] (rover_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.125400] (robot_startup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.126746] (robot_startup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.208010] (-) TimerEvent: {}
+[1.284411] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.285004] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.285183] (robot_startup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.285351] (rover_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.304486] (rover_launch) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.305113] (rover_launch) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.307586] (robot_startup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.308080] (-) TimerEvent: {}
+[1.308812] (robot_startup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.311040] (rover_launch) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.313090] (robot_startup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.408305] (-) TimerEvent: {}
+[1.442552] (locomotion_core) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/locomotion_core', 'build', '--build-base', '/home/rover4-i/rover_ws_ri/build/locomotion_core/build', 'install', '--record', '/home/rover4-i/rover_ws_ri/build/locomotion_core/install.log', '--single-version-externally-managed'], 'cwd': '/home/rover4-i/rover_ws_ri/src/locomotion_core', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rover4-i', 'SSH_AGENT_PID': '2430', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rover4-i', 'OLDPWD': '/home/rover4-i/rover_ws_ri/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1952', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rover4-i/rover_ws_ri/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rover4-i', 'JOURNAL_STREAM': '7:53065', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rover4-i', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/rover4-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rover4-i:@/tmp/.ICE-unix/2465,unix/rover4-i:/tmp/.ICE-unix/2465', 'INVOCATION_ID': '4b2845fd29ef4479b97468d40d68acbe', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/89b2890f_07d1_4208_99a4_755c789b3195', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.81', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rover4-i/rover_ws_ri/build/locomotion_core', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rover4-i/rover_ws_ri/build/locomotion_core/prefix_override:/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages:/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup'}, 'shell': False}
+[1.509004] (-) TimerEvent: {}
+[1.517552] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.522200] (robot_startup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.524298] (robot_startup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.534325] (rover_launch) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.539026] (rover_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.541512] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.542057] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.546754] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.609134] (-) TimerEvent: {}
+[1.709812] (-) TimerEvent: {}
+[1.765875] (rover_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.767530] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.769712] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.780557] (robot_startup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.800793] (robot_startup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.801896] (rover_launch) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.802880] (rover_launch) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.803263] (robot_startup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.807275] (rover_launch) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.807828] (robot_startup) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.809931] (-) TimerEvent: {}
+[1.857632] (rover_launch) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.858442] (rover_launch) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.860594] (robot_startup) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.860968] (robot_startup) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.882823] (locomotion_core) StdoutLine: {'line': b'running egg_info\n'}
+[1.883929] (locomotion_core) StdoutLine: {'line': b'creating ../../build/locomotion_core/locomotion_core.egg-info\n'}
+[1.884292] (locomotion_core) StdoutLine: {'line': b'writing ../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO\n'}
+[1.885234] (locomotion_core) StdoutLine: {'line': b'writing dependency_links to ../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt\n'}
+[1.885472] (locomotion_core) StdoutLine: {'line': b'writing entry points to ../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt\n'}
+[1.885795] (locomotion_core) StdoutLine: {'line': b'writing requirements to ../../build/locomotion_core/locomotion_core.egg-info/requires.txt\n'}
+[1.886080] (locomotion_core) StdoutLine: {'line': b'writing top-level names to ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt\n'}
+[1.892391] (locomotion_core) StdoutLine: {'line': b"writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[1.910063] (-) TimerEvent: {}
+[1.953239] (locomotion_core) StdoutLine: {'line': b"reading manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[1.954803] (locomotion_core) StdoutLine: {'line': b"writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[1.955133] (locomotion_core) StdoutLine: {'line': b'running build\n'}
+[1.955398] (locomotion_core) StdoutLine: {'line': b'running build_py\n'}
+[1.955753] (locomotion_core) StdoutLine: {'line': b'creating /home/rover4-i/rover_ws_ri/build/locomotion_core/build\n'}
+[1.956657] (locomotion_core) StdoutLine: {'line': b'creating /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib\n'}
+[1.956925] (locomotion_core) StdoutLine: {'line': b'creating /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core\n'}
+[1.957142] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/rover_enable.py -> /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core\n'}
+[1.957297] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/cmd_roboteq2.py -> /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core\n'}
+[1.957433] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/__init__.py -> /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core\n'}
+[1.959484] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/rover_state_controller.py -> /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core\n'}
+[1.961908] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/movebase_kinematics.py -> /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core\n'}
+[1.962275] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/cmd_roboteq.py -> /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core\n'}
+[1.962654] (locomotion_core) StdoutLine: {'line': b'running install\n'}
+[1.964662] (locomotion_core) StdoutLine: {'line': b'running install_lib\n'}
+[1.966677] (locomotion_core) StdoutLine: {'line': b'creating /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[1.967113] (locomotion_core) StdoutLine: {'line': b'copying /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core/rover_enable.py -> /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[1.967451] (locomotion_core) StdoutLine: {'line': b'copying /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core/cmd_roboteq2.py -> /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[1.967737] (locomotion_core) StdoutLine: {'line': b'copying /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core/__init__.py -> /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[1.968009] (locomotion_core) StdoutLine: {'line': b'copying /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core/rover_state_controller.py -> /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[1.968409] (locomotion_core) StdoutLine: {'line': b'copying /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core/movebase_kinematics.py -> /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[1.968583] (locomotion_core) StdoutLine: {'line': b'copying /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core/cmd_roboteq.py -> /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[1.969149] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/rover_enable.py to rover_enable.cpython-38.pyc\n'}
+[1.978298] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/cmd_roboteq2.py to cmd_roboteq2.cpython-38.pyc\n'}
+[1.978763] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/__init__.py to __init__.cpython-38.pyc\n'}
+[1.983512] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/rover_state_controller.py to rover_state_controller.cpython-38.pyc\n'}
+[1.983830] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/movebase_kinematics.py to movebase_kinematics.cpython-38.pyc\n'}
+[1.983974] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/cmd_roboteq.py to cmd_roboteq.cpython-38.pyc\n'}
+[1.984107] (locomotion_core) StdoutLine: {'line': b'running install_data\n'}
+[1.984274] (locomotion_core) StdoutLine: {'line': b'creating /home/rover4-i/rover_ws_ri/install/locomotion_core/share/ament_index\n'}
+[1.984602] (locomotion_core) StdoutLine: {'line': b'creating /home/rover4-i/rover_ws_ri/install/locomotion_core/share/ament_index/resource_index\n'}
+[1.984743] (locomotion_core) StdoutLine: {'line': b'creating /home/rover4-i/rover_ws_ri/install/locomotion_core/share/ament_index/resource_index/packages\n'}
+[1.984872] (locomotion_core) StdoutLine: {'line': b'copying resource/locomotion_core -> /home/rover4-i/rover_ws_ri/install/locomotion_core/share/ament_index/resource_index/packages\n'}
+[1.984998] (locomotion_core) StdoutLine: {'line': b'copying package.xml -> /home/rover4-i/rover_ws_ri/install/locomotion_core/share/locomotion_core\n'}
+[1.985120] (locomotion_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.985238] (locomotion_core) StdoutLine: {'line': b'Copying ../../build/locomotion_core/locomotion_core.egg-info to /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info\n'}
+[1.985376] (locomotion_core) StdoutLine: {'line': b'running install_scripts\n'}
+[2.010233] (-) TimerEvent: {}
+[2.030795] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.031245] (locomotion_core) StdoutLine: {'line': b'Installing cmd_roboteq script to /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/locomotion_core\n'}
+[2.031434] (locomotion_core) StdoutLine: {'line': b'Installing cmd_roboteq2 script to /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/locomotion_core\n'}
+[2.031577] (locomotion_core) StdoutLine: {'line': b'Installing movebase_kinematics script to /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/locomotion_core\n'}
+[2.031712] (locomotion_core) StdoutLine: {'line': b'Installing rover_enable script to /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/locomotion_core\n'}
+[2.031838] (locomotion_core) StdoutLine: {'line': b'Installing rover_state_controller script to /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/locomotion_core\n'}
+[2.031963] (locomotion_core) StdoutLine: {'line': b"writing list of installed files to '/home/rover4-i/rover_ws_ri/build/locomotion_core/install.log'\n"}
+[2.055013] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.058872] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.064764] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.096288] (locomotion_core) CommandEnded: {'returncode': 0}
+[2.110822] (-) TimerEvent: {}
+[2.115838] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.116930] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.130244] (locomotion_core) JobEnded: {'identifier': 'locomotion_core', 'rc': 0}
+[2.211017] (-) TimerEvent: {}
+[2.263584] (rover_launch) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.288859] (robot_startup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.311112] (-) TimerEvent: {}
+[2.411691] (-) TimerEvent: {}
+[2.417408] (rover_launch) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.421170] (rover_launch) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.422339] (rover_launch) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.423383] (rover_launch) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.425309] (rover_launch) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.430121] (rover_launch) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.434400] (rover_launch) StdoutLine: {'line': b'-- Generating done\n'}
+[2.436267] (rover_launch) StdoutLine: {'line': b'-- Build files have been written to: /home/rover4-i/rover_ws_ri/build/rover_launch\n'}
+[2.443597] (robot_startup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.454218] (robot_startup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.454613] (robot_startup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.454770] (robot_startup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.454937] (rover_launch) CommandEnded: {'returncode': 0}
+[2.456284] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'build'}
+[2.456367] (robot_startup) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.458554] (rover_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rover4-i/rover_ws_ri/build/rover_launch', '--', '-j6', '-l6'], 'cwd': '/home/rover4-i/rover_ws_ri/build/rover_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rover4-i'), ('SSH_AGENT_PID', '2430'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rover4-i'), ('OLDPWD', '/home/rover4-i/rover_ws_ri/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1952'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rover4-i'), ('JOURNAL_STREAM', '7:53065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rover4-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/rover4-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover4-i:@/tmp/.ICE-unix/2465,unix/rover4-i:/tmp/.ICE-unix/2465'), ('INVOCATION_ID', '4b2845fd29ef4479b97468d40d68acbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b2890f_07d1_4208_99a4_755c789b3195'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover4-i/rover_ws_ri/build/rover_launch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[2.459804] (robot_startup) StdoutLine: {'line': b'-- Generating done\n'}
+[2.460015] (robot_startup) StdoutLine: {'line': b'-- Build files have been written to: /home/rover4-i/rover_ws_ri/build/robot_startup\n'}
+[2.462633] (robot_startup) CommandEnded: {'returncode': 0}
+[2.463784] (robot_startup) JobProgress: {'identifier': 'robot_startup', 'progress': 'build'}
+[2.464412] (robot_startup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rover4-i/rover_ws_ri/build/robot_startup', '--', '-j6', '-l6'], 'cwd': '/home/rover4-i/rover_ws_ri/build/robot_startup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rover4-i'), ('SSH_AGENT_PID', '2430'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rover4-i'), ('OLDPWD', '/home/rover4-i/rover_ws_ri/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1952'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rover4-i'), ('JOURNAL_STREAM', '7:53065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rover4-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/rover4-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover4-i:@/tmp/.ICE-unix/2465,unix/rover4-i:/tmp/.ICE-unix/2465'), ('INVOCATION_ID', '4b2845fd29ef4479b97468d40d68acbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b2890f_07d1_4208_99a4_755c789b3195'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover4-i/rover_ws_ri/build/robot_startup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[2.511956] (-) TimerEvent: {}
+[2.532152] (rover_launch) CommandEnded: {'returncode': 0}
+[2.551499] (robot_startup) CommandEnded: {'returncode': 0}
+[2.573793] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'install'}
+[2.577629] (teleop_twist_joy) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[2.598893] (rover_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rover4-i/rover_ws_ri/build/rover_launch'], 'cwd': '/home/rover4-i/rover_ws_ri/build/rover_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rover4-i'), ('SSH_AGENT_PID', '2430'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rover4-i'), ('OLDPWD', '/home/rover4-i/rover_ws_ri/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1952'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rover4-i'), ('JOURNAL_STREAM', '7:53065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rover4-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/rover4-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover4-i:@/tmp/.ICE-unix/2465,unix/rover4-i:/tmp/.ICE-unix/2465'), ('INVOCATION_ID', '4b2845fd29ef4479b97468d40d68acbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b2890f_07d1_4208_99a4_755c789b3195'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover4-i/rover_ws_ri/build/rover_launch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[2.608299] (robot_startup) JobProgress: {'identifier': 'robot_startup', 'progress': 'install'}
+[2.608914] (robot_startup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rover4-i/rover_ws_ri/build/robot_startup'], 'cwd': '/home/rover4-i/rover_ws_ri/build/robot_startup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rover4-i'), ('SSH_AGENT_PID', '2430'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rover4-i'), ('OLDPWD', '/home/rover4-i/rover_ws_ri/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1952'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rover4-i'), ('JOURNAL_STREAM', '7:53065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rover4-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/rover4-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover4-i:@/tmp/.ICE-unix/2465,unix/rover4-i:/tmp/.ICE-unix/2465'), ('INVOCATION_ID', '4b2845fd29ef4479b97468d40d68acbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b2890f_07d1_4208_99a4_755c789b3195'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover4-i/rover_ws_ri/build/robot_startup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[2.613930] (-) TimerEvent: {}
+[2.621056] (rover_launch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.621667] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/ament_index/resource_index/package_run_dependencies/rover_launch\n'}
+[2.621911] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/ament_index/resource_index/parent_prefix_path/rover_launch\n'}
+[2.622263] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/environment/ament_prefix_path.sh\n'}
+[2.622553] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/environment/ament_prefix_path.dsv\n'}
+[2.622849] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/environment/path.sh\n'}
+[2.623126] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/environment/path.dsv\n'}
+[2.623396] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/local_setup.bash\n'}
+[2.623677] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/local_setup.sh\n'}
+[2.623949] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/local_setup.zsh\n'}
+[2.624270] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/local_setup.dsv\n'}
+[2.624657] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/package.dsv\n'}
+[2.625039] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/ament_index/resource_index/packages/rover_launch\n'}
+[2.625477] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/cmake/rover_launchConfig.cmake\n'}
+[2.625640] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/cmake/rover_launchConfig-version.cmake\n'}
+[2.625840] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/package.xml\n'}
+[2.629913] (rover_launch) CommandEnded: {'returncode': 0}
+[2.637086] (robot_startup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.637535] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/launch\n'}
+[2.637780] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/launch/rover.launch.py\n'}
+[2.638103] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/ament_index/resource_index/package_run_dependencies/robot_startup\n'}
+[2.638614] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/ament_index/resource_index/parent_prefix_path/robot_startup\n'}
+[2.638827] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/environment/ament_prefix_path.sh\n'}
+[2.639251] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/environment/ament_prefix_path.dsv\n'}
+[2.639549] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/environment/path.sh\n'}
+[2.639760] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/environment/path.dsv\n'}
+[2.640004] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/local_setup.bash\n'}
+[2.640247] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/local_setup.sh\n'}
+[2.640568] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/local_setup.zsh\n'}
+[2.644079] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/local_setup.dsv\n'}
+[2.644788] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/package.dsv\n'}
+[2.645047] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/ament_index/resource_index/packages/robot_startup\n'}
+[2.645740] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/cmake/robot_startupConfig.cmake\n'}
+[2.646201] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/cmake/robot_startupConfig-version.cmake\n'}
+[2.646470] (robot_startup) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/package.xml\n'}
+[2.670600] (robot_startup) CommandEnded: {'returncode': 0}
+[2.714246] (-) TimerEvent: {}
+[2.759041] (rover_launch) JobEnded: {'identifier': 'rover_launch', 'rc': 0}
+[2.785011] (robot_startup) JobEnded: {'identifier': 'robot_startup', 'rc': 0}
+[2.809461] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.814462] (-) TimerEvent: {}
+[2.828318] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.914604] (-) TimerEvent: {}
+[3.015228] (-) TimerEvent: {}
+[3.115894] (-) TimerEvent: {}
+[3.216720] (-) TimerEvent: {}
+[3.317456] (-) TimerEvent: {}
+[3.418515] (-) TimerEvent: {}
+[3.442407] (teleop_twist_joy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.518711] (-) TimerEvent: {}
+[3.619490] (-) TimerEvent: {}
+[3.640269] (teleop_twist_joy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.719601] (-) TimerEvent: {}
+[3.820179] (-) TimerEvent: {}
+[3.920854] (-) TimerEvent: {}
+[4.021671] (-) TimerEvent: {}
+[4.097698] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.121762] (-) TimerEvent: {}
+[4.222322] (-) TimerEvent: {}
+[4.322893] (-) TimerEvent: {}
+[4.423422] (-) TimerEvent: {}
+[4.523994] (-) TimerEvent: {}
+[4.562376] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[4.624121] (-) TimerEvent: {}
+[4.724622] (-) TimerEvent: {}
+[4.825236] (-) TimerEvent: {}
+[4.834472] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.840097] (teleop_twist_joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.844719] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.925415] (-) TimerEvent: {}
+[5.026129] (-) TimerEvent: {}
+[5.126809] (-) TimerEvent: {}
+[5.134988] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.135626] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.226969] (-) TimerEvent: {}
+[5.327619] (-) TimerEvent: {}
+[5.428281] (-) TimerEvent: {}
+[5.489157] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[5.489724] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[5.528463] (-) TimerEvent: {}
+[5.629136] (-) TimerEvent: {}
+[5.729819] (-) TimerEvent: {}
+[5.830494] (-) TimerEvent: {}
+[5.931168] (-) TimerEvent: {}
+[5.976788] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[5.977977] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[6.031344] (-) TimerEvent: {}
+[6.132034] (-) TimerEvent: {}
+[6.197994] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[6.199989] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.232189] (-) TimerEvent: {}
+[6.332846] (-) TimerEvent: {}
+[6.433598] (-) TimerEvent: {}
+[6.534247] (-) TimerEvent: {}
+[6.634817] (-) TimerEvent: {}
+[6.735331] (-) TimerEvent: {}
+[6.835859] (-) TimerEvent: {}
+[6.936433] (-) TimerEvent: {}
+[7.037125] (-) TimerEvent: {}
+[7.137863] (-) TimerEvent: {}
+[7.238533] (-) TimerEvent: {}
+[7.339229] (-) TimerEvent: {}
+[7.439952] (-) TimerEvent: {}
+[7.459408] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[7.540113] (-) TimerEvent: {}
+[7.640797] (-) TimerEvent: {}
+[7.741409] (-) TimerEvent: {}
+[7.842097] (-) TimerEvent: {}
+[7.873942] (teleop_twist_joy) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[7.942290] (-) TimerEvent: {}
+[8.043183] (-) TimerEvent: {}
+[8.143878] (-) TimerEvent: {}
+[8.156501] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[8.244079] (-) TimerEvent: {}
+[8.344889] (-) TimerEvent: {}
+[8.389189] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[8.390701] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[8.445072] (-) TimerEvent: {}
+[8.545636] (-) TimerEvent: {}
+[8.623791] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[8.624648] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[8.645807] (-) TimerEvent: {}
+[8.746401] (-) TimerEvent: {}
+[8.847042] (-) TimerEvent: {}
+[8.856906] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[8.947217] (-) TimerEvent: {}
+[9.004302] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.047326] (-) TimerEvent: {}
+[9.147920] (-) TimerEvent: {}
+[9.248708] (-) TimerEvent: {}
+[9.318649] (teleop_twist_joy) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[9.348789] (-) TimerEvent: {}
+[9.360736] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.448937] (-) TimerEvent: {}
+[9.513301] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.513827] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.514000] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[9.514146] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[9.549011] (-) TimerEvent: {}
+[9.556578] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.649218] (-) TimerEvent: {}
+[9.749923] (-) TimerEvent: {}
+[9.850678] (-) TimerEvent: {}
+[9.875618] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.876407] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/rover4-i/rover_ws_ri/src/teleop_twist_joy-foxy/include\n'}
+[9.876731] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.877505] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.878772] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.879826] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[9.880993] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.893652] (teleop_twist_joy) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.918337] (teleop_twist_joy) StdoutLine: {'line': b'-- Generating done\n'}
+[9.921734] (teleop_twist_joy) StdoutLine: {'line': b'-- Build files have been written to: /home/rover4-i/rover_ws_ri/build/teleop_twist_joy\n'}
+[9.950879] (-) TimerEvent: {}
+[9.957875] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[9.959771] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'build'}
+[9.960425] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rover4-i/rover_ws_ri/build/teleop_twist_joy', '--', '-j6', '-l6'], 'cwd': '/home/rover4-i/rover_ws_ri/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rover4-i'), ('SSH_AGENT_PID', '2430'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rover4-i'), ('OLDPWD', '/home/rover4-i/rover_ws_ri/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1952'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rover4-i'), ('JOURNAL_STREAM', '7:53065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rover4-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/rover4-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover4-i:@/tmp/.ICE-unix/2465,unix/rover4-i:/tmp/.ICE-unix/2465'), ('INVOCATION_ID', '4b2845fd29ef4479b97468d40d68acbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b2890f_07d1_4208_99a4_755c789b3195'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover4-i/rover_ws_ri/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[10.045492] (teleop_twist_joy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target teleop_twist_joy\x1b[0m\n'}
+[10.050969] (-) TimerEvent: {}
+[10.151571] (-) TimerEvent: {}
+[10.252387] (-) TimerEvent: {}
+[10.343818] (teleop_twist_joy) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o\x1b[0m\n'}
+[10.352520] (-) TimerEvent: {}
+[10.453107] (-) TimerEvent: {}
+[10.553849] (-) TimerEvent: {}
+[10.654676] (-) TimerEvent: {}
+[10.755422] (-) TimerEvent: {}
+[10.856211] (-) TimerEvent: {}
+[10.956960] (-) TimerEvent: {}
+[11.057728] (-) TimerEvent: {}
+[11.158511] (-) TimerEvent: {}
+[11.259241] (-) TimerEvent: {}
+[11.359875] (-) TimerEvent: {}
+[11.460685] (-) TimerEvent: {}
+[11.561473] (-) TimerEvent: {}
+[11.662235] (-) TimerEvent: {}
+[11.762935] (-) TimerEvent: {}
+[11.863661] (-) TimerEvent: {}
+[11.964289] (-) TimerEvent: {}
+[12.064951] (-) TimerEvent: {}
+[12.165576] (-) TimerEvent: {}
+[12.266301] (-) TimerEvent: {}
+[12.366920] (-) TimerEvent: {}
+[12.467625] (-) TimerEvent: {}
+[12.568430] (-) TimerEvent: {}
+[12.669160] (-) TimerEvent: {}
+[12.769869] (-) TimerEvent: {}
+[12.870600] (-) TimerEvent: {}
+[12.971348] (-) TimerEvent: {}
+[13.072111] (-) TimerEvent: {}
+[13.172888] (-) TimerEvent: {}
+[13.273627] (-) TimerEvent: {}
+[13.374352] (-) TimerEvent: {}
+[13.475157] (-) TimerEvent: {}
+[13.575947] (-) TimerEvent: {}
+[13.676684] (-) TimerEvent: {}
+[13.777325] (-) TimerEvent: {}
+[13.878016] (-) TimerEvent: {}
+[13.978722] (-) TimerEvent: {}
+[14.079431] (-) TimerEvent: {}
+[14.180122] (-) TimerEvent: {}
+[14.280847] (-) TimerEvent: {}
+[14.381617] (-) TimerEvent: {}
+[14.482384] (-) TimerEvent: {}
+[14.583111] (-) TimerEvent: {}
+[14.683748] (-) TimerEvent: {}
+[14.784438] (-) TimerEvent: {}
+[14.885037] (-) TimerEvent: {}
+[15.030627] (-) TimerEvent: {}
+[15.131300] (-) TimerEvent: {}
+[15.231771] (-) TimerEvent: {}
+[15.332314] (-) TimerEvent: {}
+[15.433053] (-) TimerEvent: {}
+[15.533822] (-) TimerEvent: {}
+[15.634622] (-) TimerEvent: {}
+[15.735400] (-) TimerEvent: {}
+[15.836200] (-) TimerEvent: {}
+[15.936908] (-) TimerEvent: {}
+[16.037680] (-) TimerEvent: {}
+[16.138397] (-) TimerEvent: {}
+[16.239114] (-) TimerEvent: {}
+[16.339881] (-) TimerEvent: {}
+[16.440717] (-) TimerEvent: {}
+[16.541546] (-) TimerEvent: {}
+[16.642347] (-) TimerEvent: {}
+[16.743083] (-) TimerEvent: {}
+[16.843819] (-) TimerEvent: {}
+[16.944568] (-) TimerEvent: {}
+[17.045326] (-) TimerEvent: {}
+[17.146108] (-) TimerEvent: {}
+[17.246788] (-) TimerEvent: {}
+[17.347469] (-) TimerEvent: {}
+[17.448224] (-) TimerEvent: {}
+[17.548905] (-) TimerEvent: {}
+[17.649638] (-) TimerEvent: {}
+[17.750322] (-) TimerEvent: {}
+[17.851169] (-) TimerEvent: {}
+[17.951959] (-) TimerEvent: {}
+[18.052658] (-) TimerEvent: {}
+[18.153368] (-) TimerEvent: {}
+[18.254078] (-) TimerEvent: {}
+[18.354777] (-) TimerEvent: {}
+[18.455485] (-) TimerEvent: {}
+[18.556229] (-) TimerEvent: {}
+[18.656947] (-) TimerEvent: {}
+[18.757686] (-) TimerEvent: {}
+[18.858421] (-) TimerEvent: {}
+[18.959334] (-) TimerEvent: {}
+[19.060017] (-) TimerEvent: {}
+[19.160749] (-) TimerEvent: {}
+[19.261402] (-) TimerEvent: {}
+[19.362063] (-) TimerEvent: {}
+[19.462736] (-) TimerEvent: {}
+[19.563380] (-) TimerEvent: {}
+[19.664041] (-) TimerEvent: {}
+[19.764702] (-) TimerEvent: {}
+[19.865342] (-) TimerEvent: {}
+[19.965995] (-) TimerEvent: {}
+[20.123531] (-) TimerEvent: {}
+[20.224196] (-) TimerEvent: {}
+[20.324812] (-) TimerEvent: {}
+[20.425429] (-) TimerEvent: {}
+[20.526062] (-) TimerEvent: {}
+[20.626912] (-) TimerEvent: {}
+[20.727576] (-) TimerEvent: {}
+[20.828224] (-) TimerEvent: {}
+[20.928855] (-) TimerEvent: {}
+[21.029508] (-) TimerEvent: {}
+[21.130161] (-) TimerEvent: {}
+[21.230789] (-) TimerEvent: {}
+[21.331422] (-) TimerEvent: {}
+[21.432058] (-) TimerEvent: {}
+[21.532733] (-) TimerEvent: {}
+[21.633393] (-) TimerEvent: {}
+[21.734040] (-) TimerEvent: {}
+[21.834661] (-) TimerEvent: {}
+[21.935303] (-) TimerEvent: {}
+[22.036072] (-) TimerEvent: {}
+[22.136877] (-) TimerEvent: {}
+[22.237591] (-) TimerEvent: {}
+[22.338302] (-) TimerEvent: {}
+[22.439048] (-) TimerEvent: {}
+[22.539759] (-) TimerEvent: {}
+[22.640430] (-) TimerEvent: {}
+[22.741045] (-) TimerEvent: {}
+[22.841636] (-) TimerEvent: {}
+[22.942324] (-) TimerEvent: {}
+[23.042960] (-) TimerEvent: {}
+[23.143791] (-) TimerEvent: {}
+[23.244647] (-) TimerEvent: {}
+[23.345449] (-) TimerEvent: {}
+[23.446265] (-) TimerEvent: {}
+[23.547084] (-) TimerEvent: {}
+[23.647889] (-) TimerEvent: {}
+[23.748696] (-) TimerEvent: {}
+[23.849481] (-) TimerEvent: {}
+[23.950295] (-) TimerEvent: {}
+[24.018817] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_twist_joy.so\x1b[0m\n'}
+[24.050458] (-) TimerEvent: {}
+[24.151129] (-) TimerEvent: {}
+[24.251778] (-) TimerEvent: {}
+[24.352408] (-) TimerEvent: {}
+[24.453156] (-) TimerEvent: {}
+[24.553948] (-) TimerEvent: {}
+[24.654754] (-) TimerEvent: {}
+[24.755443] (-) TimerEvent: {}
+[24.856127] (-) TimerEvent: {}
+[24.956814] (-) TimerEvent: {}
+[25.189495] (-) TimerEvent: {}
+[25.206620] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] Built target teleop_twist_joy\n'}
+[25.226749] (teleop_twist_joy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target teleop_twist_joy_node\x1b[0m\n'}
+[25.289614] (-) TimerEvent: {}
+[25.390195] (-) TimerEvent: {}
+[25.413353] (teleop_twist_joy) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[25.490382] (-) TimerEvent: {}
+[25.591070] (-) TimerEvent: {}
+[25.691733] (-) TimerEvent: {}
+[25.792414] (-) TimerEvent: {}
+[25.893085] (-) TimerEvent: {}
+[25.993788] (-) TimerEvent: {}
+[26.094472] (-) TimerEvent: {}
+[26.195164] (-) TimerEvent: {}
+[26.295812] (-) TimerEvent: {}
+[26.396478] (-) TimerEvent: {}
+[26.497146] (-) TimerEvent: {}
+[26.597831] (-) TimerEvent: {}
+[26.698487] (-) TimerEvent: {}
+[26.799141] (-) TimerEvent: {}
+[26.899794] (-) TimerEvent: {}
+[27.000487] (-) TimerEvent: {}
+[27.101146] (-) TimerEvent: {}
+[27.201809] (-) TimerEvent: {}
+[27.302478] (-) TimerEvent: {}
+[27.403151] (-) TimerEvent: {}
+[27.503817] (-) TimerEvent: {}
+[27.604543] (-) TimerEvent: {}
+[27.705269] (-) TimerEvent: {}
+[27.805976] (-) TimerEvent: {}
+[27.906658] (-) TimerEvent: {}
+[28.007353] (-) TimerEvent: {}
+[28.108056] (-) TimerEvent: {}
+[28.208770] (-) TimerEvent: {}
+[28.309469] (-) TimerEvent: {}
+[28.410165] (-) TimerEvent: {}
+[28.510861] (-) TimerEvent: {}
+[28.611541] (-) TimerEvent: {}
+[28.712232] (-) TimerEvent: {}
+[28.812889] (-) TimerEvent: {}
+[28.913572] (-) TimerEvent: {}
+[29.014245] (-) TimerEvent: {}
+[29.114893] (-) TimerEvent: {}
+[29.215612] (-) TimerEvent: {}
+[29.226547] (teleop_twist_joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable teleop_node\x1b[0m\n'}
+[29.315788] (-) TimerEvent: {}
+[29.416630] (-) TimerEvent: {}
+[29.517442] (-) TimerEvent: {}
+[29.546866] (teleop_twist_joy) StdoutLine: {'line': b'[100%] Built target teleop_twist_joy_node\n'}
+[29.617598] (-) TimerEvent: {}
+[29.693115] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[29.717841] (-) TimerEvent: {}
+[29.744693] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'install'}
+[29.745436] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rover4-i/rover_ws_ri/build/teleop_twist_joy'], 'cwd': '/home/rover4-i/rover_ws_ri/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rover4-i'), ('SSH_AGENT_PID', '2430'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rover4-i'), ('OLDPWD', '/home/rover4-i/rover_ws_ri/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1952'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rover4-i'), ('JOURNAL_STREAM', '7:53065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rover4-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/rover4-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rover4-i:@/tmp/.ICE-unix/2465,unix/rover4-i:/tmp/.ICE-unix/2465'), ('INVOCATION_ID', '4b2845fd29ef4479b97468d40d68acbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b2890f_07d1_4208_99a4_755c789b3195'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rover4-i/rover_ws_ri/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[29.768511] (teleop_twist_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.769186] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib/libteleop_twist_joy.so\n'}
+[29.776843] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""\n'}
+[29.777279] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node\n'}
+[29.777984] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node" to ""\n'}
+[29.778352] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/include\n'}
+[29.778674] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/include/teleop_twist_joy\n'}
+[29.779026] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.hpp\n'}
+[29.779342] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy_export.h\n'}
+[29.779700] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/launch\n'}
+[29.779949] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py\n'}
+[29.780220] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/config\n'}
+[29.780479] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml\n'}
+[29.817966] (-) TimerEvent: {}
+[29.917431] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml\n'}
+[29.918059] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml\n'}
+[29.918237] (-) TimerEvent: {}
+[29.918617] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml\n'}
+[29.919174] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml\n'}
+[29.920445] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh\n'}
+[29.920763] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv\n'}
+[29.921348] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy\n'}
+[29.921888] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy\n'}
+[29.922257] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh\n'}
+[29.922655] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv\n'}
+[29.922992] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh\n'}
+[29.923324] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv\n'}
+[29.923633] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash\n'}
+[29.923971] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh\n'}
+[29.924308] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh\n'}
+[29.924574] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv\n'}
+[29.924872] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv\n'}
+[29.925159] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy\n'}
+[29.925458] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy\n'}
+[29.925757] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.926066] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.926360] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake\n'}
+[29.926651] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake\n'}
+[29.926888] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/package.xml\n'}
+[29.930785] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[30.018369] (-) TimerEvent: {}
+[30.185593] (-) TimerEvent: {}
+[30.251396] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 0}
+[30.253927] (-) EventReactorShutdown: {}

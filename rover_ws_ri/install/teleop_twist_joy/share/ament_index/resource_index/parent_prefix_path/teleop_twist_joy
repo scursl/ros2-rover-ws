@@ -1,1 +1,1 @@
-/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy
+/home/rover4-i/rover_ws_ri/install/rover_launch:/home/rover4-i/rover_ws_ri/install/teleop_twist_joy:/home/rover4-i/rover_ws_ri/install/robot_startup:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy

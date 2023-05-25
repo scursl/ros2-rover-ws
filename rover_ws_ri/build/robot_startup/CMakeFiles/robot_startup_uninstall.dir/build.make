@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rover4-i/Desktop/Rover/rover_ws_ri/src/robot_startup
+CMAKE_SOURCE_DIR = /home/rover4-i/rover_ws_ri/src/robot_startup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rover4-i/Desktop/Rover/rover_ws_ri/build/robot_startup
+CMAKE_BINARY_DIR = /home/rover4-i/rover_ws_ri/build/robot_startup
 
 # Utility rule file for robot_startup_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/rover4-i/Desktop/Rover/rover_ws_ri/build/robot_startup
 include CMakeFiles/robot_startup_uninstall.dir/progress.make
 
 CMakeFiles/robot_startup_uninstall:
-	/usr/bin/cmake -P /home/rover4-i/Desktop/Rover/rover_ws_ri/build/robot_startup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rover4-i/rover_ws_ri/build/robot_startup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 robot_startup_uninstall: CMakeFiles/robot_startup_uninstall
 robot_startup_uninstall: CMakeFiles/robot_startup_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/robot_startup_uninstall.dir/clean:
 .PHONY : CMakeFiles/robot_startup_uninstall.dir/clean
 
 CMakeFiles/robot_startup_uninstall.dir/depend:
-	cd /home/rover4-i/Desktop/Rover/rover_ws_ri/build/robot_startup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rover4-i/Desktop/Rover/rover_ws_ri/src/robot_startup /home/rover4-i/Desktop/Rover/rover_ws_ri/src/robot_startup /home/rover4-i/Desktop/Rover/rover_ws_ri/build/robot_startup /home/rover4-i/Desktop/Rover/rover_ws_ri/build/robot_startup /home/rover4-i/Desktop/Rover/rover_ws_ri/build/robot_startup/CMakeFiles/robot_startup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rover4-i/rover_ws_ri/build/robot_startup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rover4-i/rover_ws_ri/src/robot_startup /home/rover4-i/rover_ws_ri/src/robot_startup /home/rover4-i/rover_ws_ri/build/robot_startup /home/rover4-i/rover_ws_ri/build/robot_startup /home/rover4-i/rover_ws_ri/build/robot_startup/CMakeFiles/robot_startup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_startup_uninstall.dir/depend
 

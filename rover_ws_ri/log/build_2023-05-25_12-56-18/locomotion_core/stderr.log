@@ -1,0 +1,5 @@
+  File "/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/enable_gpiocontrol.py", line 8
+    GPIO.setmode(GPIO.BOARD) GPIO.setup(led_pin, GPIO.OUT, initial=GPIO.LOW)
+                             ^
+SyntaxError: invalid syntax
+

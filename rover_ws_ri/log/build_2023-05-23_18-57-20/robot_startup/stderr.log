@@ -1,1 +1,0 @@
-CMake Error: The current CMakeCache.txt directory /home/rover4-i/rover_ws_ri/build/robot_startup/CMakeCache.txt is different than the directory /home/rover4-i/Desktop/Rover/rover_ws_ri/build/robot_startup where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt

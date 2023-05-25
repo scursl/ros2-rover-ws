@@ -1,0 +1,1 @@
+Invoking command in '/home/rover4-i/rover_ws_ri/build/robot_startup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rover4-i/rover_ws_ri/build/robot_startup -- -j6 -l6

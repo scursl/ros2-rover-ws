@@ -1,0 +1,49 @@
+[0.540s] Invoking command in '/home/rover4-i/rover_ws_ri/build/robot_startup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake /home/rover4-i/rover_ws_ri/src/robot_startup -DCMAKE_INSTALL_PREFIX=/home/rover4-i/rover_ws_ri/install/robot_startup
+[0.674s] -- The C compiler identification is GNU 9.4.0
+[0.858s] -- The CXX compiler identification is GNU 9.4.0
+[0.867s] -- Check for working C compiler: /usr/bin/cc
+[1.093s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.094s] -- Detecting C compiler ABI info
+[1.252s] -- Detecting C compiler ABI info - done
+[1.275s] -- Detecting C compile features
+[1.276s] -- Detecting C compile features - done
+[1.280s] -- Check for working CXX compiler: /usr/bin/c++
+[1.490s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.492s] -- Detecting CXX compiler ABI info
+[1.748s] -- Detecting CXX compiler ABI info - done
+[1.768s] -- Detecting CXX compile features
+[1.770s] -- Detecting CXX compile features - done
+[1.775s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.828s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.828s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.256s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.421s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.422s] -- Added test 'lint_cmake' to check CMake code style
+[2.422s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.422s] -- Added test 'xmllint' to check XML markup files
+[2.424s] -- Configuring done
+[2.427s] -- Generating done
+[2.427s] -- Build files have been written to: /home/rover4-i/rover_ws_ri/build/robot_startup
+[2.430s] Invoked command in '/home/rover4-i/rover_ws_ri/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake /home/rover4-i/rover_ws_ri/src/robot_startup -DCMAKE_INSTALL_PREFIX=/home/rover4-i/rover_ws_ri/install/robot_startup
+[2.436s] Invoking command in '/home/rover4-i/rover_ws_ri/build/robot_startup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rover4-i/rover_ws_ri/build/robot_startup -- -j6 -l6
+[2.519s] Invoked command in '/home/rover4-i/rover_ws_ri/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rover4-i/rover_ws_ri/build/robot_startup -- -j6 -l6
+[2.579s] Invoking command in '/home/rover4-i/rover_ws_ri/build/robot_startup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rover4-i/rover_ws_ri/build/robot_startup
+[2.604s] -- Install configuration: ""
+[2.605s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/launch
+[2.605s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/launch/rover.launch.py
+[2.605s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/ament_index/resource_index/package_run_dependencies/robot_startup
+[2.606s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/ament_index/resource_index/parent_prefix_path/robot_startup
+[2.606s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/environment/ament_prefix_path.sh
+[2.607s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/environment/ament_prefix_path.dsv
+[2.607s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/environment/path.sh
+[2.607s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/environment/path.dsv
+[2.607s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/local_setup.bash
+[2.607s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/local_setup.sh
+[2.611s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/local_setup.zsh
+[2.612s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/local_setup.dsv
+[2.612s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/package.dsv
+[2.613s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/ament_index/resource_index/packages/robot_startup
+[2.613s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/cmake/robot_startupConfig.cmake
+[2.613s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/cmake/robot_startupConfig-version.cmake
+[2.614s] -- Installing: /home/rover4-i/rover_ws_ri/install/robot_startup/share/robot_startup/package.xml
+[2.639s] Invoked command in '/home/rover4-i/rover_ws_ri/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rover4-i/rover_ws_ri/build/robot_startup

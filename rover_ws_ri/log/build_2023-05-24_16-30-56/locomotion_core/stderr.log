@@ -1,0 +1,5 @@
+  File "/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/rover_enable.py", line 6
+    global board_id = 0
+                    ^
+SyntaxError: invalid syntax
+

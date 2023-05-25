@@ -1,0 +1,33 @@
+[0.525s] Invoking command in '/home/rover4-i/rover_ws_ri/build/rover_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rover4-i/rover_ws_ri/build/rover_launch -- -j6 -l6
+[0.575s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.621s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.997s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.133s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.136s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.136s] -- Added test 'lint_cmake' to check CMake code style
+[1.137s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.138s] -- Added test 'xmllint' to check XML markup files
+[1.141s] -- Configuring done
+[1.147s] -- Generating done
+[1.236s] -- Build files have been written to: /home/rover4-i/rover_ws_ri/build/rover_launch
+[1.283s] Invoked command in '/home/rover4-i/rover_ws_ri/build/rover_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rover4-i/rover_ws_ri/build/rover_launch -- -j6 -l6
+[1.334s] Invoking command in '/home/rover4-i/rover_ws_ri/build/rover_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rover4-i/rover_ws_ri/build/rover_launch
+[1.353s] -- Install configuration: ""
+[1.354s] -- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/launch
+[1.354s] -- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/launch/rover.launch.py
+[1.354s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/rover_launch/share/ament_index/resource_index/package_run_dependencies/rover_launch
+[1.355s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/rover_launch/share/ament_index/resource_index/parent_prefix_path/rover_launch
+[1.355s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/environment/ament_prefix_path.sh
+[1.355s] -- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/environment/ament_prefix_path.dsv
+[1.355s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/environment/path.sh
+[1.355s] -- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/environment/path.dsv
+[1.355s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/local_setup.bash
+[1.356s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/local_setup.sh
+[1.356s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/local_setup.zsh
+[1.356s] -- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/local_setup.dsv
+[1.356s] -- Installing: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/package.dsv
+[1.356s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/rover_launch/share/ament_index/resource_index/packages/rover_launch
+[1.356s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/cmake/rover_launchConfig.cmake
+[1.357s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/cmake/rover_launchConfig-version.cmake
+[1.357s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/rover_launch/share/rover_launch/package.xml
+[1.366s] Invoked command in '/home/rover4-i/rover_ws_ri/build/rover_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rover4-i/rover_ws_ri/build/rover_launch

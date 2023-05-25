@@ -3,16 +3,24 @@ import time
 from rclpy.node import Node
 from std_msgs.msg import Bool
 
-global flag
-flag = False
+global board_id
+board_id = 0
 
-contactorPin = 23
+contactorPin = 7
 # open the gpio chip and set the LED pin as output
 try:
     import lgpio
     h = lgpio.gpiochip_open(0)
     lgpio.gpio_claim_output(h, contactorPin)
-    flag=True
+    board_id = 1
+except:
+    pass
+
+try:
+    import Jetson.GPIO as GPIO
+    GPIO.setmode(GPIO.BOARD)
+    GPIO.setup(contactorPin, GPIO.OUT, initial=GPIO.HIGH)
+    board_id = 2
 except:
     pass
 
@@ -29,8 +37,13 @@ class duEnable(Node):
         self.subscription  # prevent unused variable warning
 
     def contactor_ctrl(self, val):
-        if flag:
+        if board_id == 1:   #  raspberry pi
             lgpio.gpio_write(h, contactorPin, val)
+        elif board_id == 2: # jetson
+            if (val == True):
+                GPIO.output(contactorPin, GPIO.HIGH)
+            else:
+                GPIO.output(contactorPin, GPIO.LOW)
         else:
             print("Flag disabled.")
 

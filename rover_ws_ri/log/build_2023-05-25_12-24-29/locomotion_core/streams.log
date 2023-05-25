@@ -1,0 +1,29 @@
+[1.399s] Invoking command in '/home/rover4-i/rover_ws_ri/src/locomotion_core': PYTHONPATH=/home/rover4-i/rover_ws_ri/build/locomotion_core/prefix_override:/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion_core build --build-base /home/rover4-i/rover_ws_ri/build/locomotion_core/build install --record /home/rover4-i/rover_ws_ri/build/locomotion_core/install.log --single-version-externally-managed
+[1.812s] running egg_info
+[1.812s] writing ../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO
+[1.813s] writing dependency_links to ../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt
+[1.814s] writing entry points to ../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt
+[1.814s] writing requirements to ../../build/locomotion_core/locomotion_core.egg-info/requires.txt
+[1.815s] writing top-level names to ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt
+[1.881s] reading manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[1.882s] writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[1.883s] running build
+[1.883s] running build_py
+[1.884s] copying locomotion_core/enable_srv.py -> /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core
+[1.884s] running install
+[1.886s] running install_lib
+[1.888s] copying /home/rover4-i/rover_ws_ri/build/locomotion_core/build/lib/locomotion_core/enable_srv.py -> /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[1.890s] byte-compiling /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/enable_srv.py to enable_srv.cpython-38.pyc
+[1.893s] running install_data
+[1.893s] running install_egg_info
+[1.897s] removing '/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info' (and everything under it)
+[1.897s] Copying ../../build/locomotion_core/locomotion_core.egg-info to /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info
+[1.899s] running install_scripts
+[1.934s] Installing cmd_roboteq script to /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/locomotion_core
+[1.934s] Installing cmd_roboteq2 script to /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/locomotion_core
+[1.935s] Installing en_service script to /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/locomotion_core
+[1.935s] Installing movebase_kinematics script to /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/locomotion_core
+[1.935s] Installing rover_enable script to /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/locomotion_core
+[1.935s] Installing rover_state_controller script to /home/rover4-i/rover_ws_ri/install/locomotion_core/lib/locomotion_core
+[1.936s] writing list of installed files to '/home/rover4-i/rover_ws_ri/build/locomotion_core/install.log'
+[1.998s] Invoked command in '/home/rover4-i/rover_ws_ri/src/locomotion_core' returned '0': PYTHONPATH=/home/rover4-i/rover_ws_ri/build/locomotion_core/prefix_override:/home/rover4-i/rover_ws_ri/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion_core build --build-base /home/rover4-i/rover_ws_ri/build/locomotion_core/build install --record /home/rover4-i/rover_ws_ri/build/locomotion_core/install.log --single-version-externally-managed

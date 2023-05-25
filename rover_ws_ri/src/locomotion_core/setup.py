@@ -25,6 +25,7 @@ setup(
             'rover_enable = locomotion_core.rover_enable:main',
             'cmd_roboteq = locomotion_core.cmd_roboteq:main',
             'cmd_roboteq2 = locomotion_core.cmd_roboteq2:main',
+            'en_service = locomotion_core.enable_srv:main',
         ],
     },
 )

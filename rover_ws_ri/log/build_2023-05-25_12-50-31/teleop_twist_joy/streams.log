@@ -1,0 +1,41 @@
+[0.635s] Invoking command in '/home/rover4-i/rover_ws_ri/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rover4-i/rover_ws_ri/build/teleop_twist_joy -- -j6 -l6
+[0.852s] [ 50%] Built target teleop_twist_joy
+[0.919s] [100%] Built target teleop_twist_joy_node
+[0.935s] Invoked command in '/home/rover4-i/rover_ws_ri/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rover4-i/rover_ws_ri/build/teleop_twist_joy -- -j6 -l6
+[0.998s] Invoking command in '/home/rover4-i/rover_ws_ri/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rover4-i/rover_ws_ri/build/teleop_twist_joy
+[1.018s] -- Install configuration: ""
+[1.019s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[1.019s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[1.020s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/include
+[1.020s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/include/teleop_twist_joy
+[1.020s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.hpp
+[1.021s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy_export.h
+[1.021s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/launch
+[1.021s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py
+[1.022s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/config
+[1.022s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[1.022s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[1.022s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[1.022s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[1.022s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[1.023s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh
+[1.023s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv
+[1.023s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy
+[1.023s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy
+[1.024s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh
+[1.024s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv
+[1.024s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh
+[1.024s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv
+[1.024s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash
+[1.024s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh
+[1.024s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh
+[1.025s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv
+[1.025s] -- Installing: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv
+[1.025s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy
+[1.025s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy
+[1.025s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.026s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[1.026s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[1.026s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[1.026s] -- Up-to-date: /home/rover4-i/rover_ws_ri/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[1.034s] Invoked command in '/home/rover4-i/rover_ws_ri/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover4-i/rover_ws_ri/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rover4-i/rover_ws_ri/build/teleop_twist_joy

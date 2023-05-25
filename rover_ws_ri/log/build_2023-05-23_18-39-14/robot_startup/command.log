@@ -1,4 +1,0 @@
-Invoking command in '/home/rover4-i/rover_ws_ri/build/robot_startup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rover4-i/rover_ws_ri/build/robot_startup -- -j6 -l6
-Invoked command in '/home/rover4-i/rover_ws_ri/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rover4-i/rover_ws_ri/build/robot_startup -- -j6 -l6
-Invoking command in '/home/rover4-i/rover_ws_ri/build/robot_startup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rover4-i/rover_ws_ri/build/robot_startup
-Invoked command in '/home/rover4-i/rover_ws_ri/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rover4-i/rover_ws_ri/build/robot_startup
